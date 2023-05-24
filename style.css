@@ -1,0 +1,347 @@
+:root {
+
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Raleway', sans-serif;
+
+    --padding-container: 90px 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /*background: linear-gradient(30deg, rgba(2, 0, 36, 1) 0%, rgba(13, 123, 160, 0.9374124649859944) 53%, rgba(0, 212, 255, 1) 100%);*/
+}
+
+body {
+    font-family: var(--font1);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    /*background: rgb(2, 0, 36);
+    background: linear-gradient(30deg, rgba(2, 0, 36, 1) 0%, rgba(13, 123, 160, 0.9374124649859944) 53%, rgba(0, 212, 255, 1) 100%);*/
+     background-image: linear-gradient(to bottom, blue, purple);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: #fff;
+    width: 90%;
+    height: 2px;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 90px 10px;
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1.1em;
+    --padding-container: 40px 0;
+}
+
+.nav_logo {
+    width: 110px;
+}
+
+.nav_img {
+    width: 100%;
+    display: block;
+}
+
+.title {
+    float: left;
+    height: auto;
+}
+
+.nav_link {
+    float: right;
+    display: inside;
+    margin-right: 10px;
+    align-items: flex-end;
+    text-decoration: none;
+    font-family: var(--font2);
+    color: #fff;
+}
+
+.hero {
+    position: relative;
+    --padding-container: 100px 0 170px;
+    /*background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    bottom: 0;
+}
+
+.hero_main_container {
+    padding: auto;
+}
+
+.hero-img {
+    border: 3px solid white;
+    border-radius: 50%;
+    display: outside;
+    height: 100%;
+    margin: 2rem 0 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hero_info {
+    /*padding: 0.5em 0.7em;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    position: relative;
+    --padding-container: 100px 0 170px;
+}
+
+.hero_title {
+    /*font-size: 1.7rem;*/
+    font-family: var(--font2);
+    margin-top: 1.8em;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--font2);
+}
+
+.hero_paragraph {
+        line-height: 1.5;
+        margin: 1.5em;
+        margin-top: 1.8em;
+        margin-bottom: 1.2em;
+}
+
+.hero_list{
+    text-align: center;
+}
+
+div.hero_info2 {
+    padding: 0.7em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.skills {
+        padding: 2.5em auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: overflow;
+        align-items: center;
+}
+
+
+.skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.skill-item {
+        margin: 20px;
+        background-color: #fff;
+        padding: 50px;
+        margin-bottom: 150px;
+        border-radius: 150px;
+}
+
+.progress {
+        width: 100%;
+        height: 20px;
+        color: #3fb6b2;
+        background: #efefef;
+}
+
+.progress::-webkit-progress-bar {
+        background: #efefef;
+}
+
+.progress::-webkit-progress-value {
+        background: #3fb6b2;
+}
+
+.progress::-moz-progress-bar {
+        color: #3fb6b2;
+        background: #efefef;
+}
+
+.hero_contact {
+        margin-top: 2em;
+}
+
+.hero_input {
+        height: 45px;
+        border-radius: 6px;
+        width: 100%;
+        font: inherit;
+        border: 1px solid var(--Very-Dark-Blue);
+        padding: 0 20px;
+        font-family: var(--font2);
+}
+
+.hero_input--cta {
+        background-color: var(--Bright-Blue);
+        color: #fff;
+        border: none;
+        font-weight: 700;
+        margin-top: 1.2em;
+}
+
+.footer {
+        background-color: var(--Very-Dark-Blue);
+        color: #fff;
+}
+
+.footer_container {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+}
+
+.footer_logo {
+        display: block;
+}
+
+.footer_icon {
+        vertical-align: middle;
+        margin-right: .5em;
+}
+
+.footer_info {
+        font-size: 1.2rem;
+}
+
+.footer_nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+}
+
+.footer_link {
+        text-decoration: none;
+        color: #fff;
+        font-family: var(--font2);
+}
+
+.footer_link:hover {
+        text-decoration: underline;
+}
+
+.footer_social {
+        display: flex;
+        width: max-content;
+        margin: 0 auto;
+        gap: 5em;
+    }
+
+.footer_media {
+        border: 1px solid #fff;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+}
+
+
+
+@media (min-width: 768px) {
+    .hero {
+            position: relative;
+            --padding-container: 90px 0 200px;
+    }
+
+
+    .hero_main {
+            display: flex;
+            align-items: center;
+            gap: 1.5em;
+    }
+
+    .hero-img {
+            max-width: 400px;
+            display: flex;
+            align-items: center;
+    }
+
+    .hero_info {
+           padding: var(--padding-container);
+           display: flex;
+           align-items: center;
+           order: -1;
+           gap: 0.7em;
+
+    }
+
+    .section {
+            margin-right: 20px;
+    }
+
+    .hero_contact {
+            display: flex;
+            gap: 1em;
+    }
+
+    .hero_input {
+            min-width: 160px;
+            flex-grow: 1;
+    }
+
+    .hero_input--cta {
+            margin-top: 0;
+            flex-grow: 0;
+            width: 160px;
+    }
+
+    .footer_container {
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+    }
+
+    .footer_picture {
+            width: 100%;
+    }
+
+    .footer_contact {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+    }
+
+    .footer_social {
+            margin: 0 auto;
+    }
+
+
+}

@@ -1,0 +1,159 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Raleway', sans-serif;
+
+    --padding-container: 90px 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font1);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: var(--Desaturated-blue);
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    background-color: var(--pale-blue);
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25em;
+}
+
+.section1{
+    background-color: var(--Pale-blue);
+    width: 100%;
+    height: auto;
+}
+
+.section2 {
+    background-color: var(--Pale-blue);
+    width: 100%;
+    height: 464px;
+}
+
+.section3 {
+    background-color: var(--Pale-blue);
+    width: 100%;
+    height: 464px;
+}
+
+.card_plan {
+    margin: auto;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.card_icon{
+    width: 320px;
+    height: 350px;
+}
+
+@media (min-width:768px) {
+   /* body {
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .section1{
+        max-width: 33%;
+        order: -1;
+    }
+
+    .section2{
+        max-width: 33%;
+        order: 0;
+    }
+
+    .section3{
+        max-width: 33%;
+        order: 1;
+    }*/
+
+        body {
+            font-family: var(--font1);
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background-color: #2546f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero{
+            text-align: center;
+        }
+    
+        .title {
+            text-align: center;
+            color: #fff;
+        }
+    
+        .container {
+            background-color: var(--pale-blue);
+            display: flex;
+            align-items: center;
+            /*flex-wrap: wrap;
+            gap: .25em;*/
+        }
+    
+        .section1 {
+            background-color: var(--Pale-blue);
+           /* width: 100%;*/
+           max-width: 33%;
+            height: 488px;
+            order: -1;
+        }
+    
+        .section2 {
+            background-color: var(--Pale-blue);
+            /*width: 100%;*/
+            max-width: 33%;
+            height: 488px;
+            order: 0;
+        }
+    
+        .section3 {
+            background-color: var(--Pale-blue);
+            /*width: 100%;*/
+            max-width: 33%;
+            height: 488px;
+            order: 1;
+        }
+    
+        .card_plan {
+            margin: auto;
+            width: 320px;
+            background-color: #fff;
+            border-radius: 2em;
+            overflow: hidden;
+        }
+    
+        .card_icon {
+            width: 320px;
+            height: 350px;
+        }
+}
