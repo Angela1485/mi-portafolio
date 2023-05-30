@@ -1,0 +1,107 @@
+:root {
+
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Raleway', sans-serif;
+
+    --padding-container: 90px 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 650px;
+    background-image: linear-gradient(to bottom, blue, purple);
+    background-repeat: no-repeat;
+    font-family: var(--font2);
+    padding: var(--padding-container);
+}
+
+form {
+    text-align: center;
+    margin: 50px auto 50px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+.face {
+    margin-bottom: 7em;
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+
+footer{
+    padding: 2em;
+    background-color: blueviolet;
+    margin: 150px auto;
+}
+
+@media (min-width: 768px) {
+    body {
+            position: relative;
+            --padding-container: 100px 0 775px;
+            background-image: linear-gradient(to bottom, blue, purple);
+            background-repeat: no-repeat;
+            font-family: var(--font2);
+        }
+    
+        form {
+            max-width: 100%;
+            max-height: max-content;
+            text-align: center;
+            margin: 150px auto;
+        }
+    
+        textarea {
+            height: 100px;
+        }
+    
+        input,
+        textarea {
+            margin-bottom: 20px;
+            font-size: 11pt;
+            padding: 25px 10px 10px;
+            border: 1px solid #cecece;
+            background-color: #efefef;
+            color: #787575;
+            border-radius: 5px;
+            width: 70%;
+            outline: none;
+        }
+    
+        .face {
+            margin-bottom: 7em;
+            transform: scale(1.4);
+            margin: 0 auto;
+            display: block;
+            margin-top: -35px;
+            margin-bottom: -25px;
+        }
+    
+        footer {
+            max-height: 10px;
+            padding: 5em;
+            background-color: blueviolet;
+        }
+}
