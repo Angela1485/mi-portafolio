@@ -22,7 +22,7 @@
         
         
             <article class="card_plan">
-                <img src="./images2/Trabajo1.png" class="card_icon">
+                <img src="./images2/Trabajo1.png" class="card_icon" onclick="openModal(this)">
         
             </article>
         </div>
@@ -32,7 +32,7 @@
         
         
             <article class="card_plan">
-                <img src="./images2/Trabajo2.png" class="card_icon">
+                <img src="./images2/Trabajo2.png" class="card_icon" onclick="openModal(this)">
             </article>
         </div>
         </div>
@@ -43,11 +43,17 @@
         
         
             <article class="card_plan">
-                <img src="./images2/Trabajo3.png" class="card_icon">
+                <img src="./images2/Trabajo3.png" class="card_icon" onclick="openModal(this)">
             </article>
+        </div>
+    <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content">
         </div>
         
         
     </section>
+    <script src="./box.js"></script>
 </body>
+<footer><p>&copy; My Portafolio 2023</p></footer>
 </html>
