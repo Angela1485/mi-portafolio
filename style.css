@@ -68,15 +68,13 @@ body {
 }
 
 .hero {
+   margin-top: 7em;
     position: relative;
     --padding-container: 100px 0 170px;
-    /*background-size: cover;
-    background-position: center;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
 }
 
 .hero::before {
@@ -167,7 +165,8 @@ div.hero_info2 {
 }
 
 .skill-item {
-        margin: 20px;
+        color: #fff;
+        margin: auto;
         background-color: #fff;
         padding: 50px;
         margin-bottom: 150px;
