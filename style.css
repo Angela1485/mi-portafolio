@@ -164,6 +164,10 @@ div.hero_info2 {
         justify-content: center;
 }
 
+li{
+        color: #000;
+}
+
 .skill-item {
         color: #fff;
         margin: auto;
