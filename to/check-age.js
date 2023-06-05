@@ -1,4 +1,4 @@
-(function () {
+(function () {
   // Prompt the user for their age
   var userAge = prompt("Que edad tiene?:");
 
