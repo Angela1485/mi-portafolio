@@ -6,11 +6,11 @@
   var legalAge = 18; // Replace with the legal age in your jurisdiction
 
   if (userAge >= legalAge) {
-    var audio = new Audio("adulto.mp3");
+    var audio = new Audio("audio/adulto.mp3");
     audio.play();
     alert("Enhorabuena! superas la mayoria de edad! Tienes gusto musical!");
   } else {
-    var audio = new Audio("nene.mp3");
+    var audio = new Audio("audio/nene.mp3");
     audio.play();
     alert("Lo siento, aun puede que no conozcas EXTREMODURO");
   }
