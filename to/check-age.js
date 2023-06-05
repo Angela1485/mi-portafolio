@@ -5,7 +5,7 @@
   // Check if the user's age is less than the legal age
   var legalAge = 18; // Replace with the legal age in your jurisdiction
 
-  var audio = new Audio("audio/nene.mp3");
+  var audio = new Audio("./to/audio/nene.mp3");
   
   // Function to play the audio
   function playAudio() {
@@ -21,7 +21,7 @@
     audio.src = "audio/nene.mp3";
     alert("Lo siento, aún puede que no conozcas EXTREMODURO");
   } else {
-    audio.src = "audio/adulto.mp3";
+    audio.src = "./to/audio/adulto.mp3";
     alert("¡Enhorabuena! ¡Superas la mayoría de edad! ¡Tienes gusto musical!");
   }
   
