@@ -18,10 +18,10 @@
         }
 
         if (userAge < legalAge) {
-          audio.src = "audio/nene.mp3";
+          audio.src = "./to/audio/nene.mp3";
           alert("Lo siento, aún puede que no conozcas EXTREMODURO");
         } else {
-          audio.src = "audio/adulto.mp3";
+          audio.src = "./to/audio/adulto.mp3";
           alert("¡Enhorabuena! ¡Superas la mayoría de edad! ¡Tienes gusto musical!");
         }
         
