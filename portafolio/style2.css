@@ -28,6 +28,7 @@ body {
 }
 
 .container{
+    width: 275px;
     margin: 50px;
     background-color: var(--pale-blue);
     display: flex;
