@@ -25,6 +25,7 @@ body {
 
 .title{
     text-align: center;
+    color: #fff;
 }
 
 .container{
@@ -32,8 +33,8 @@ body {
     margin: 50px;
     background-color: var(--pale-blue);
     display: flex;
-    flex-wrap: wrap;
-    gap: .50em;
+    flex-wrap: nowrap;
+    gap: 2em;
 }
 
 .section1{
