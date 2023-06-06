@@ -37,7 +37,7 @@ body {
     gap: 3.75em;
 }
 
-.section1 {
+#section1 {
     
     background-color: var(--Pale-blue);
     width: 100%;
