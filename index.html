@@ -131,9 +131,11 @@
                 </a>
             
             </div>
-            <form class="hero_contact">
-                <input type="email" placeholder="Enter your email..." class="hero_input">
-                <input type="submit" value="Enviar" class="hero_input hero_input--cta">
+         
+              <form class="hero_contact" action="mailto:amf.programacion@gmail.com" method="POST" enctype="text/plain">
+                <input type="email" placeholder="Enter your email..." class="hero_input" name="email">
+                <textarea placeholder="Enter your message..." class="hero_input" name="message"></textarea>
+                <input type="submit" value="Submit" class="hero_input hero_input--cta">
             </form>
         </section>
     
