@@ -159,7 +159,7 @@ footer {
         gap: .5em;
     }
 
-    .section1 {
+    .section {
         
         flex:auto;
         width: 33.33%;
@@ -169,35 +169,7 @@ footer {
         
     }
 
-     .section2 {
-        
-        flex:auto;
-        width: 33.33%;
-        /*min-height: 200px;*/
-        border: 1px solid black;
-        box-sizing: border-box;
-        
-    }
     
-     .section3 {
-        
-        flex:auto;
-        width: 33.33%;
-        /*min-height: 200px;*/
-        border: 1px solid black;
-        box-sizing: border-box;
-        
-    }
-    
-     .section4 {
-        
-        flex:auto;
-        width: 33.33%;
-        /*min-height: 200px;*/
-        border: 1px solid black;
-        box-sizing: border-box;
-        
-    }
 
 
     .card_title {
