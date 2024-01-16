@@ -25,7 +25,7 @@ DESARROLLADORA FRONTEND
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Javascript, HTML, CSS, JQuery
 
 
 ## Usage/Examples
