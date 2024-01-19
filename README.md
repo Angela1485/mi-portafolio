@@ -15,7 +15,7 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 
 ## 🚀 About Me
-DESARROLLADORA FRONTEND
+DESARROLLADORA FRONTEND Y DISEÑADORA UX/UI
 
 ## Tech Stack
 
